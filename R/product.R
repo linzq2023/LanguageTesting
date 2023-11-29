@@ -10,5 +10,5 @@
 #' product(2,3)
 product<-function(x, y){
   z = x * y
-  z
+  return(z)
 }
