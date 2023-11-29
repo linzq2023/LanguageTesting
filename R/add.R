@@ -9,7 +9,7 @@
 #' add (3,2)
 add<-function(x, y){
   z = x +y
-  return(z)
+  z
 }
 
 
