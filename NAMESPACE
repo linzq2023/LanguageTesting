@@ -2,3 +2,4 @@
 
 export(add)
 export(minus1)
+export(product)
