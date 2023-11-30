@@ -22,3 +22,8 @@ calculate_percentage <- function(data) {
   # 返回结果
   return(percentages)
 }
+
+
+
+
+
