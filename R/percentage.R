@@ -20,7 +20,7 @@ calculate_percentage <- function(data) {
   percentages <- counts / total * 100
 
   # 返回结果
-  return(percentages)
+  percentages
 }
 
 
