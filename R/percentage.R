@@ -1,6 +1,6 @@
 #' Calculate the percent in the Likert scale
 #'
-#' @param data_vector
+#' @param data
 #'
 #'
 #' @export

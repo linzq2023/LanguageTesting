@@ -7,7 +7,7 @@
 calculate_percentage(data)
 }
 \arguments{
-\item{data_vector}{}
+\item{data}{}
 }
 \description{
 Calculate the percent in the Likert scale
