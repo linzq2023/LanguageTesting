@@ -20,7 +20,7 @@ grade_answers <- function(df, correct_answers) {
     question_column <- paste("item", i, sep = "")
     # 检查该列是否存在于数据框中
     if (!question_column %in% names(df)) {
-      stop(paste("找不到列：", question_column))
+      stop(paste("can not find：", question_column))
     }
     # 根据正确答案进行评分
     df[[question_column]] <- ifelse(df[[question_column]] == correct_answers[i], 1, 0)
